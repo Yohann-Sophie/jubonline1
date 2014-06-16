@@ -3,8 +3,9 @@
 	<head>
 	<title>Jub.Club</title>
 
-	<!-- meta info goes here-->
-		<meta charset="utf-8">
+
+
+	<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		
 		<meta name="description" content="Get products that don't ship to your country">
@@ -17,8 +18,9 @@
     	<meta property="og:type" content="article" />
     	<meta property="og:image" content="img/jubclub.jpg" />
 
-	<!--css goes here-->
-				<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		
 
 		<link rel="icon"  type="image/x-icon"  href="/favicon.ico">
@@ -28,11 +30,17 @@
 
 		<link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
 
+
+		<!-- inline CSS goes here -->
+
+		
 	</head>
 	<body class="yo-anim-enabled">
 
-		<!--html goes here -->
-		
+	
+
+
+
 		<section id="mini-navbar" class="main-navbar hidden-xs hidden-sm">
 			<div class="nav">
 				<div class="container">
@@ -227,14 +235,23 @@
 						<form name="newsletter-form" id="newsletter-form" action="javascript:addBeta()" method="POST" >
 							<div class="inputs">
 								<input type="text"  placeholder="e-mail" class="pull-right button-send btn-lg button-mail newsletter-form form-email-error"  name="newsletter[form-email]" id="form-email"/>
+								
 								<div class="button-submit">
 									<div class="" style="display: block; position: relative;">
 										<input type="submit" id="sendBut" value="Submit" class="btn btn-default pull-right button-send btn-lg"/>
+										<!-- fb connect button goes here.-->
 										<div class="message-success alert-success alert hidden"><i class="fa fa-check"></i></div>
 									</div>
 								</div>
+
+							
 							</div>
+
+							 <!-- socialShare goes here -->
 						</form>
+						
+
+						
 					</div>
 				</div>
 			</div>
@@ -304,8 +321,11 @@
 		<div class="gallery-wrapper"></div>
 
 		
+		<div id="fb-root"></div>
+
 	</body>
-	<!--scripts go here-->
+	
+
 	<script src="js/jquery-2.1.0.min.js"></script>
 		<script src="js/modernizr-2.6.2.min.js"></script>
 		<script src="js/enquire.js"></script>
@@ -320,22 +340,5 @@
 		<script src="js/init.js"></script>
 
 		
-
-
-<script type="text/javascript">
-var sc_project=9821676; 
-var sc_invisible=1; 
-var sc_security="2a6e26a9"; 
-var sc_https=1; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="http://c.statcounter.com/9821676/0/2a6e26a9/1/"
-alt="web stats"></a></div></noscript>
+		<!-- Our FB JS Include Goes here-->
 </html>
