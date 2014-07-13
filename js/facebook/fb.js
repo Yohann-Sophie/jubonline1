@@ -1,6 +1,6 @@
 //enter your API Key here (between the "")
 
-  var fbAPIKey="1425445244395353";
+  var fbAPIKey="832142413479983";
 
   //array that will store our first Facebook response with the user's info
   var response1;
@@ -18,7 +18,7 @@
   window.fbAsyncInit = function() {
     FB.init({
       appId      : fbAPIKey, // App ID
-      channelUrl : 'http://jub.club', // Channel File
+      channelUrl : 'http://jubonline', // Channel File
       status     : true, // check login status
       cookie     : true, // enable cookies to allow the server to access the session
       xfbml      : true  // parse XFBML
